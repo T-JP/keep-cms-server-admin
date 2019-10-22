@@ -1,0 +1,43 @@
+@import url('./iconfont.scss');
+@import url('./elreset.scss');
+
+html {
+  height: 100%;
+  body {
+    height: 100%;
+    font-size: 12px;
+    margin: 0;
+    color: #303133;
+  }
+}
+
+.df-content {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0 10px 10px 10px;
+}
+
+.el-form{
+  &.filter {
+    padding: 10px 0 0 0 ;
+    .el-form-item--mini.el-form-item {
+      margin: 0 10px 10px 0;
+    }
+  }
+  &.view {
+    padding: 0 0 0 0 ;
+    .el-form-item--mini.el-form-item {
+      margin: 0 10px 0 0;
+    }
+  }
+}
+
+// .df-filter-tag {
+//   padding: 4px 0;
+
+//   border-bottom: solid 1px #e6e6e6;
+//   .el-tag {
+//     margin: 0 10px 0 0;
+//   }
+// }
